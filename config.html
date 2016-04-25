@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Config </title>
+	</head>
+	<style>
+		div {
+		    width: 500px;
+		    height: 350px;
+		    padding: 0px;
+		    border: 5px solid gray;
+		    margin: 0px;
+		    border-radius: 50px;
+		}
+
+	</style>
+	<body style="background-color: #003366">
+		<center style="margin-top: 50px; font-size: 100px; color: #fff">
+			miniTron Configurations
+		</center>
+		<center>
+			<div style="background-color: #fff; margin-top:70px">
+				<center>
+					<h2 style="margin-left: 20px; margin-top: 30px">
+						Wifi Configs
+					</h2>		
+
+					<form id="wifi" style="margin-top: 10px;">
+						SSID:
+						<input type="text" name="ssid" style="margin-bottom:10px">
+						<br>
+						Password:
+						<input type="password" name="password"> <br>
+						<h2 style="margin-left: 20px; margin-top: 30px">
+							Display Configs
+						</h2>	
+						<input type="radio" name="gender" value="twitter" checked> Twitter <br>
+						<input type="radio" name="gender" value="temp"> Temp <br>
+					</form>
+
+					<button type="submit" form="wifi" value="Submit" style="margin-top:20px">
+						Submit
+					</button>
+				</center>
+			</div>
+		</center>
+	</body>
+</html>
